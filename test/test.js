@@ -277,5 +277,4 @@ describe('remapify', function(){
       }
     }])
   })
-
 })
