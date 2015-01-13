@@ -225,7 +225,7 @@ describe('remapify', function(){
     plugin(b, [{
       src: './**/*.js'
       , expose: 'path'
-      , cwd: './test/fixtures/target'
+      , cwd: path.join(__dirname, 'fixtures', 'target')
     }])
   })
 
